@@ -32,5 +32,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    from .PublishMQTT1 import PublishEdits
+    from .PublishMQTT import PublishEdits
     return PublishEdits(iface)

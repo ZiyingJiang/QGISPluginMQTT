@@ -1,7 +1,7 @@
 Plugin Builder Results
 
 Your plugin PublishEdits was created in:
-    C:/Users/jiangz5/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins\publishmqtt1
+    C:/Users/jiangz5/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins\publishmqtt
 
 Your QGIS plugin directory is located at:
     C:/Users/jiangz5/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
@@ -17,7 +17,7 @@ What's Next:
 
   * Test the plugin by enabling it in the QGIS plugin manager
 
-  * Customize it by editing the implementation file: ``PublishMQTT1.py``
+  * Customize it by editing the implementation file: ``PublishMQTT.py``
 
   * Create your own custom icon, replacing the default icon.png
 

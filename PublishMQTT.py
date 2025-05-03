@@ -32,7 +32,7 @@ import json
 # Initialize Qt resources from file resources.py
 from .resources import *
 # Import the code for the dialog
-from .PublishMQTT1_dialog import PublishEditsDialog
+from .PublishMQTT_dialog import PublishEditsDialog
 import os.path
 
 
