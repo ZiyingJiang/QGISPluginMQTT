@@ -2,7 +2,7 @@ QGISPluginMQTT是一个QGIS插件，用于实现在QGIS里编辑的矢量文件�
 以下为实现上述功能的安装调试指南：
 
 # 步骤1：配置MQTT broker （约需10分钟完成）
-1. 从https://mosquitto.org/download/下载mosquitto安装程序并完成安装
+1. 从[https://mosquitto.org/download/](https://mosquitto.org/download/)下载mosquitto安装程序并完成安装
 2. 在C:\Program Files\mosquitto找到mosquitto.conf文件
 3. 用管理员身份启动任意文字处理器如notepad++ （可以鼠标右键点击该文字处理器图标,然后选择更多>管理员权限运行）
 4. 在文字处理器中打开mosquitto.conf文件。在文件末尾添加如下命令行
@@ -34,7 +34,7 @@ QGISPluginMQTT是一个QGIS插件，用于实现在QGIS里编辑的矢量文件�
 9. 在工具条中找到Reload plugin按钮，在 reload plugin下拉菜单中选择PublishMQTT。 可以看到QGIS窗口里显示该插件已启动待命。<br/> 
 **请注意每次使用该插件要先运行mosquitto, 否则端口未开启，插件启动后会报错。遇到这种情况可以在运行mosquitto后重启QGIS,再运行插件即可。**
 # 步骤3：设置 Cesium (约需5分钟完成)
-1. 从cesium.com/downloads/下载Cesium JS最新版本并完成安装
+1. 从[cesium.com/downloads/](https://cesium.com/downloads/)下载Cesium JS最新版本并完成安装
 2. 在C:/Users/<你的用户名>/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/PublishMQTT文件夹中找到index2.html
 3. 移动该文件至CesiumJS安装的文件夹中，通常为C:\Cesium-1.xxx (1.xxx为当前版本号）
 4. 在Visual Studio Coder或其他程序编译器中打开C:\Cesium-1.xxx文件目录找到index2.html，右键点击选择open with live server. (如果live server选项不存在，则需在程序编译器的扩展菜单里选择安装live server，因为不同程序编译器设置不同，在此不展开）。Cesium浏览器会在网页打开，当前地址是北加州，可根据所在研究区自行调整。
